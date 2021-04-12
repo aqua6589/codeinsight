@@ -1,0 +1,19 @@
+.container {
+    $size:100px;
+    $size2:200px;
+    .item{
+        width:$size;
+        height:$size;
+        background:tomato;
+    }
+    .item2{
+        width:$size2;
+        height:$size2;
+        background:blue;
+    }
+    .item3{
+        width:$size2;
+        height:$size2;
+        background:yellow;
+    }
+}
